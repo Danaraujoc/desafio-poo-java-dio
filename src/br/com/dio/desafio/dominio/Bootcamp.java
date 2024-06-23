@@ -15,6 +15,14 @@ public class Bootcamp {
     private Set<Dev> devsInscritos = new HashSet<>();
     private Set<Conteudo> conteudos = new LinkedHashSet<>();
 
+    public void inscreverDev(Dev dev) {
+        this.devsInscritos.add(dev);
+    }
+
+    public void adicionarConteudo(Conteudo conteudo) {
+        this.conteudos.add(conteudo);
+    }
+
     public String getNome() {
         return nome;
     }
@@ -59,7 +67,12 @@ public class Bootcamp {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Bootcamp bootcamp)) return false;
-        return Objects.equals(getNome(), bootcamp.getNome()) && Objects.equals(getDescricao(), bootcamp.getDescricao()) && Objects.equals(getDataInicial(), bootcamp.getDataInicial()) && Objects.equals(getDataFinal(), bootcamp.getDataFinal()) && Objects.equals(getDevsInscritos(), bootcamp.getDevsInscritos()) && Objects.equals(getConteudos(), bootcamp.getConteudos());
+        return Objects.equals(getNome(), bootcamp.getNome()) &&
+                Objects.equals(getDescricao(), bootcamp.getDescricao()) &&
+                Objects.equals(getDataInicial(), bootcamp.getDataInicial()) &&
+                Objects.equals(getDataFinal(), bootcamp.getDataFinal()) &&
+                Objects.equals(getDevsInscritos(), bootcamp.getDevsInscritos()) &&
+                Objects.equals(getConteudos(), bootcamp.getConteudos());
     }
 
     @Override
