@@ -1,7 +1,13 @@
 
 # Desafio: Aprenda na Prática Programação Orientada a Objetos
 
-Este repositório faz parte do Desafio de Projeto desenvolvido durante o Bootcamp Santander 2024, afim de trabalhar os conceitos do desemvolvimento Orientada a Objetos. O objetivo foi abstrair um Bootcamp usando POO.
+Este repositório faz parte do Desafio de Projeto desenvolvido durante o Bootcamp Santander 2024, afim de trabalhar os conceitos do desemvolvimento Orientada a Objetos. O objetivo foi abstrair um Bootcamp usando POO. O código compartilhado nesse repositório difere um pouco do repositório original link na referência, sinta-se a vontade para caso queira reproduzir fazer suas modificações e melhorias.
+
+### Melhorias Realizadas
+
+- `progredir`Bootcamp Métodos: Melhoramos os métodos de Bootcamp para adicionar devs e conteúdos de forma mais clara e direta.
+- Classe Dev: Criado o método para "inscreverConteudo" para permitir a inscrição em conteúdos individualmente
+- `Bootcamp`Método: Simplificamos o método progredir em Dev usando ifPresent para reduzir a verbosidade do código.
 
 
 ## Pré-Requisitos
